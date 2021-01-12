@@ -23,6 +23,7 @@ wget -qO- https://raw.githubusercontent.com/creationix/nvm/v0.34.0/install.sh | 
 logout and log back in to the shell.
 command -v nvm
 
+source ~/.nvm/nvm.sh
 nvm install node
 ```
 ##### This CLI has only been tested on Debian and Ubuntu based distributions.
